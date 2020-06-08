@@ -3,8 +3,8 @@
     <cmd id="4096" name="touch_move">
         <action>
             <duration_ms>80</duration_ms>
-            <big_cpu0_min_freq>1364000</big_cpu0_min_freq>
-            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <big_cpu0_min_freq>1210000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
             <vip>40</vip>
             <top-app>40</top-app>
             <foreground>40</foreground>
@@ -15,8 +15,8 @@
     <cmd id="4097" name="scroller_boost">
         <action>
             <duration_ms>1000</duration_ms>
-            <big_cpu0_min_freq>1364000</big_cpu0_min_freq>
-            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <big_cpu0_min_freq>1210000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
             <ipa_power>4500</ipa_power>
             <vip>20</vip>
             <top-app>20</top-app>
@@ -30,11 +30,11 @@
             <duration_ms>400</duration_ms>
             <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
             <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
-            <big_cpu0_min_freq>2093000</big_cpu0_min_freq>
-            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
-            <gpu_min_freq>550000000</gpu_min_freq>
-            <gpu_max_freq>767000000</gpu_max_freq>
-            <ddr_min_freq>1244000000</ddr_min_freq>
+            <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
+            <gpu_min_freq>415000000</gpu_min_freq>
+            <gpu_max_freq>415000000</gpu_max_freq>
+            <ddr_min_freq>1866000000</ddr_min_freq>
             <ipa_power>4500</ipa_power>
             <vip>30</vip>
             <top-app>30</top-app>
@@ -55,10 +55,10 @@
             <duration_ms>1500</duration_ms>
             <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
             <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
-            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
-            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
-            <gpu_min_freq>550000000</gpu_min_freq>
-            <gpu_max_freq>767000000</gpu_max_freq>
+            <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
+            <gpu_min_freq>415000000</gpu_min_freq>
+            <gpu_max_freq>415000000</gpu_max_freq>
             <ddr_min_freq>1866000000</ddr_min_freq>
             <ipa_power>4500</ipa_power>
             <vip>40</vip>
@@ -83,12 +83,12 @@
     <cmd id="4102" name="screen_on">
         <action>
             <duration_ms>1000</duration_ms>
-            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
-            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
-            <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
-            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
-            <gpu_min_freq>415000000</gpu_min_freq>
-            <gpu_max_freq>415000000</gpu_max_freq>
+            <lit_cpu0_min_freq>509000</lit_cpu0_min_freq>
+            <lit_cpu0_max_freq>509000</lit_cpu0_max_freq>
+            <big_cpu0_min_freq>682000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>682000</big_cpu0_max_freq>
+            <gpu_min_freq>103750000</gpu_min_freq>
+            <gpu_max_freq>103750000</gpu_max_freq>
             <vip>10</vip>
             <top-app>10</top-app>
             <foreground>10</foreground>
@@ -102,7 +102,7 @@
             <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
             <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
             <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
-            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
             <ddr_min_freq>1866000000</ddr_min_freq>
             <vip>40</vip>
             <top-app>40</top-app>
@@ -115,7 +115,7 @@
         <action>
             <duration_ms>200</duration_ms>
             <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
-            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
             <ipa_power>4500</ipa_power>
             <vip>40</vip>
             <top-app>40</top-app>
@@ -129,11 +129,11 @@
             <duration_ms>1000</duration_ms>
             <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
             <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
-            <big_cpu0_min_freq>2093000</big_cpu0_min_freq>
-            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
-            <gpu_min_freq>550000000</gpu_min_freq>
-            <gpu_max_freq>767000000</gpu_max_freq>
-            <ddr_min_freq>1244000000</ddr_min_freq>
+            <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
+            <gpu_min_freq>415000000</gpu_min_freq>
+            <gpu_max_freq>415000000</gpu_max_freq>
+            <ddr_min_freq>1866000000</ddr_min_freq>
             <ipa_power>4500</ipa_power>
             <vip>40</vip>
             <top-app>40</top-app>
@@ -147,8 +147,8 @@
             <duration_ms>500</duration_ms>
             <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
             <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
-            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
-            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
             <vip>40</vip>
             <top-app>40</top-app>
             <foreground>40</foreground>
@@ -159,7 +159,7 @@
     <cmd id="4112" name="list_fling">
         <action>
             <duration_ms>5000</duration_ms>
-            <lit_cpu0_min_freq>1402000</lit_cpu0_min_freq>
+            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
             <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
             <ipa_power>4500</ipa_power>
             <vip>10</vip>
@@ -205,7 +205,7 @@
         <action>
             <duration_ms>100</duration_ms>
             <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
-            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
         </action>
     </cmd>
 
@@ -414,10 +414,10 @@
             <duration_ms>400</duration_ms>
             <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
             <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
-            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
-            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
-            <gpu_min_freq>550000000</gpu_min_freq>
-            <gpu_max_freq>767000000</gpu_max_freq>
+            <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
+            <gpu_min_freq>415000000</gpu_min_freq>
+            <gpu_max_freq>415000000</gpu_max_freq>
             <ddr_min_freq>1866000000</ddr_min_freq>
             <ipa_power>4500</ipa_power>
             <vip>40</vip>
@@ -450,15 +450,15 @@
     <cmd id="12288" name="sched_boost_freq">
         <action>
             <duration_ms>0</duration_ms>
-            <lit_cpu0_max_freq>1210000</lit_cpu0_max_freq>
+            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
         </action>
     </cmd>
     <cmd id="12289" name="low_temp_tsh">
         <action>
             <duration_ms>0</duration_ms>
-            <big_cpu0_max_freq>1364000</big_cpu0_max_freq>
-            <lit_cpu0_max_freq>1402000</lit_cpu0_max_freq>
-            <gpu_max_freq>237143000</gpu_max_freq>
+            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
+            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
+            <gpu_max_freq>415000000</gpu_max_freq>
         </action>
     </cmd>
 
@@ -536,21 +536,21 @@
     <cmd id="12300" name="gpu_level_1">
         <action>
             <duration_ms>0</duration_ms>
-            <gpu_min_freq>332000000</gpu_min_freq>
+            <gpu_min_freq>550000000</gpu_min_freq>
         </action>
     </cmd>
 
     <cmd id="12301" name="gpu_level_2">
         <action>
             <duration_ms>0</duration_ms>
-            <gpu_min_freq>415000000</gpu_min_freq>
+            <gpu_min_freq>667000000</gpu_min_freq>
         </action>
     </cmd>
 
     <cmd id="12302" name="gpu_level_3">
         <action>
             <duration_ms>0</duration_ms>
-            <gpu_min_freq>550000000</gpu_min_freq>
+            <gpu_min_freq>767000000</gpu_min_freq>
         </action>
     </cmd>
 
@@ -585,113 +585,113 @@
     <cmd id="12321" name="lcpu_level_12">
         <action>
             <duration_ms>0</duration_ms>
-            <lit_cpu0_max_freq>1210000</lit_cpu0_max_freq>
+            <lit_cpu0_max_freq>1556000</lit_cpu0_max_freq>
         </action>
     </cmd>
 
     <cmd id="12330" name="gpu_level_11">
         <action>
             <duration_ms>0</duration_ms>
-            <gpu_min_freq>332000000</gpu_min_freq>
-            <gpu_max_freq>332000000</gpu_max_freq>
+            <gpu_min_freq>415000000</gpu_min_freq>
+            <gpu_max_freq>415000000</gpu_max_freq>
         </action>
     </cmd>
 
     <cmd id="12331" name="bcpu_level_1">
         <action>
             <duration_ms>0</duration_ms>
-            <big_cpu0_min_freq>1652000</big_cpu0_min_freq>
+            <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
         </action>
     </cmd>
 
     <cmd id="12332" name="bcpu_level_5">
         <action>
             <duration_ms>0</duration_ms>
-            <big_cpu0_min_freq>1210000</big_cpu0_min_freq>
+            <big_cpu0_min_freq>1652000</big_cpu0_min_freq>
         </action>
     </cmd>
 
     <cmd id="12333" name="bcpu_level_6">
         <action>
             <duration_ms>0</duration_ms>
-            <big_cpu0_min_freq>1364000</big_cpu0_min_freq>
+            <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
         </action>
     </cmd>
 
     <cmd id="12334" name="bcpu_level_7">
         <action>
             <duration_ms>0</duration_ms>
-            <big_cpu0_min_freq>1498000</big_cpu0_min_freq>
+            <big_cpu0_min_freq>2093000</big_cpu0_min_freq>
         </action>
     </cmd>
 
     <cmd id="12335" name="bcpu_level_13">
         <action>
             <duration_ms>0</duration_ms>
-            <big_cpu0_max_freq>1210000</big_cpu0_max_freq>
+            <big_cpu0_max_freq>1498000</big_cpu0_max_freq>
         </action>
     </cmd>
 
     <cmd id="12336" name="bcpu_level_14">
         <action>
             <duration_ms>0</duration_ms>
-            <big_cpu0_max_freq>1364000</big_cpu0_max_freq>
+            <big_cpu0_max_freq>1652000</big_cpu0_max_freq>
         </action>
     </cmd>
 
     <cmd id="12337" name="bcpu_level_15">
         <action>
             <duration_ms>0</duration_ms>
-            <big_cpu0_max_freq>1498000</big_cpu0_max_freq>
+            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
         </action>
     </cmd>
 
     <cmd id="12338" name="bcpu_level_16">
         <action>
             <duration_ms>0</duration_ms>
-            <big_cpu0_max_freq>1652000</big_cpu0_max_freq>
+            <big_cpu0_max_freq>2093000</big_cpu0_max_freq>
         </action>
     </cmd>
 
     <cmd id="12339" name="lcpu_level_13">
         <action>
             <duration_ms>0</duration_ms>
-            <lit_cpu0_max_freq>1402000</lit_cpu0_max_freq>
+            <lit_cpu0_max_freq>1556000</lit_cpu0_max_freq>
         </action>
     </cmd>
 
     <cmd id="12340" name="lcpu_level_14">
         <action>
             <duration_ms>0</duration_ms>
-            <lit_cpu0_max_freq>1556000</lit_cpu0_max_freq>
+            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
         </action>
     </cmd>
 
     <cmd id="12341" name="gpu_level_12">
         <action>
             <duration_ms>0</duration_ms>
-            <gpu_max_freq>150909000</gpu_max_freq>
+            <gpu_max_freq>415000000</gpu_max_freq>
         </action>
     </cmd>
 
     <cmd id="12342" name="gpu_level_13">
         <action>
             <duration_ms>0</duration_ms>
-            <gpu_max_freq>237143000</gpu_max_freq>
+            <gpu_max_freq>550000000</gpu_max_freq>
         </action>
     </cmd>
 
     <cmd id="12343" name="gpu_level_14">
         <action>
             <duration_ms>0</duration_ms>
-            <gpu_max_freq>332000000</gpu_max_freq>
+            <gpu_max_freq>667000000</gpu_max_freq>
         </action>
     </cmd>
 
     <cmd id="12344" name="gpu_level_15">
         <action>
             <duration_ms>0</duration_ms>
-            <gpu_max_freq>415000000</gpu_max_freq>
+            <gpu_max_freq>767000000</gpu_max_freq>
         </action>
     </cmd>
     <cmd id="12345" name="bcpu_level_17">
@@ -703,7 +703,7 @@
     <cmd id="12346" name="gpu_level_16">
         <action>
             <duration_ms>45000</duration_ms>
-            <gpu_min_freq>332000000</gpu_min_freq>
+            <gpu_min_freq>415000000</gpu_min_freq>
         </action>
     </cmd>
     <cmd id="12347" name="bcpu_level_18">
@@ -715,7 +715,7 @@
     <cmd id="12348" name="gpu_level_17">
         <action>
             <duration_ms>2000</duration_ms>
-            <gpu_min_freq>332000000</gpu_min_freq>
+            <gpu_min_freq>415000000</gpu_min_freq>
         </action>
     </cmd>
     <!--from 12290 to 12349, for game frequencies level. cmd id end-->
@@ -724,7 +724,7 @@
         <action>
             <duration_ms>5000</duration_ms>
             <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
-            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
+            <big_cpu0_min_freq>2093000</big_cpu0_min_freq>
             <ddr_min_freq>1866000000</ddr_min_freq>
             <vip>40</vip>
             <top-app>40</top-app>
@@ -736,7 +736,7 @@
         <action>
             <duration_ms>10000</duration_ms>
             <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
-            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
+            <big_cpu0_min_freq>2093000</big_cpu0_min_freq>
             <ddr_min_freq>1866000000</ddr_min_freq>
             <vip>40</vip>
             <top-app>40</top-app>
@@ -748,7 +748,7 @@
         <action>
             <duration_ms>20000</duration_ms>
             <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
-            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
+            <big_cpu0_min_freq>2093000</big_cpu0_min_freq>
             <ddr_min_freq>1866000000</ddr_min_freq>
             <vip>40</vip>
             <top-app>40</top-app>
@@ -760,7 +760,7 @@
         <action>
             <duration_ms>30000</duration_ms>
             <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
-            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
+            <big_cpu0_min_freq>2093000</big_cpu0_min_freq>
             <ddr_min_freq>1866000000</ddr_min_freq>
             <vip>40</vip>
             <top-app>40</top-app>
@@ -773,7 +773,7 @@
         <action>
             <duration_ms>0</duration_ms>
             <perf_limit>1</perf_limit>
-            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
+            <big_cpu0_max_freq>2093000</big_cpu0_max_freq>
             <vip>0</vip>
             <top-app>0</top-app>
             <foreground>0</foreground>
@@ -784,12 +784,12 @@
         <action>
             <duration_ms>0</duration_ms>
             <perf_limit>1</perf_limit>
-            <gov_lit_cpu_delay_up>90</gov_lit_cpu_delay_up>
-            <gov_lit_cpu_load>90</gov_lit_cpu_load>
-            <gov_lit_cpu_delay_down>90</gov_lit_cpu_delay_down>
-            <gov_big_cpu_delay_up>90</gov_big_cpu_delay_up>
-            <gov_big_cpu_load>90</gov_big_cpu_load>
-            <gov_big_cpu_delay_down>90</gov_big_cpu_delay_down>
+            <gov_lit_cpu_delay_up>110</gov_lit_cpu_delay_up>
+            <gov_lit_cpu_load>110</gov_lit_cpu_load>
+            <gov_lit_cpu_delay_down>110</gov_lit_cpu_delay_down>
+            <gov_big_cpu_delay_up>110</gov_big_cpu_delay_up>
+            <gov_big_cpu_load>110</gov_big_cpu_load>
+            <gov_big_cpu_delay_down>110</gov_big_cpu_delay_down>
         </action>
     </cmd>
     <!--0x4f00~0x4fff, for notification event-->
