@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Touchscreen config file:
+Used for provide better touch performancein some special application;
+Notice there must be a one-to-one match of 'type' between this xml and dts files;
+This file should be maintained by Dept-Multimedia Quality Dept-Picture Quality Dept only;
+-->
+<list>
+    <array type="3"><!-- For special game config -->
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.ztgame.bob</item>
+        <item>com.wepie.snake.huawei</item>
+        <item>com.wepie.snake.tencent</item>
+        <item>com.tencent.tmgp.speedmobile</item>
+        <item>com.tencent.tmgp.cf</item>
+        <item>com.garena.game.kgsam</item>
+        <item>com.garena.game.kgtw</item>
+        <item>com.garena.game.kgvn</item>
+        <item>com.garena.game.kgth</item>
+        <item>com.garena.game.kgid</item>
+        <item>com.netmarble.penta</item>
+        <item>com.garena.game.kges</item>
+        <item>com.garena.game.kgvntest</item>
+        <item>com.ngame.allstar.eu</item>
+        <item>com.gameloft.android.ANMP.GloftM5HM</item>
+        <item>com.gameloft.android.ANMP.GloftMVHM</item>
+        <item>com.ea.games.r3_row</item>
+        <item>com.ea.gp.fifamobile</item>
+        <item>com.firsttouchgames.dls3</item>
+        <item>com.netease.zjz.huawei</item>
+        <item>com.tencent.tmgp.pubgm</item>
+       <item>com.wyd.hero.yqlfc.cb1.huawei</item>
+    </array>
+    <array type="4"><!-- For shoot  games-->
+	<item>com.tencent.tmgp.pubgmhd</item>
+	<item>com.netease.hyxd.huawei</item>
+	<item>com.netease.hyxd</item>
+	<item>com.netease.hyxd.baidu</item>
+	<item>com.netease.hyxd.mi</item>
+	<item>com.netease.hyxd.vivo</item>
+	<item>com.netease.hyxd.tt</item>
+	<item>com.netease.hyxd.aligames</item>
+	<item>com.tencent.ig</item>
+	<item>com.pubg.krmobile</item>
+    </array>
+</list>
+
+

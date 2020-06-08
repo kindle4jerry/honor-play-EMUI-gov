@@ -1,0 +1,6 @@
+/data/hw_init/product/app/Fantasy/Fantasy.apk
+/data/hw_init/product/app/Fascinate/Fascinate.apk
+/data/hw_init/product/app/HwGameAssistant/HwGameAssistant.apk
+/data/hw_init/product/app/Microsoft_Translator/Microsoft_Translator.apk
+/data/hw_init/product/app/PartyMode/PartyMode.apk
+/data/hw_init/product/app/Streamline/Streamline.apk

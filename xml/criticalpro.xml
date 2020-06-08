@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<packages>
+<package name="com.huawei.livingwallpaper.colorfulcornell" path="data/hw_init/product/app/Fantasy" ss="D54A0841FC93A87E60677DC15F257D42FAB35BFFDD96C7B038BAD65A2C61F25B" version="3"/>
+<package name="com.huawei.livewallpaper.fascinate" path="data/hw_init/product/app/Fascinate" ss="BC4056939ED4603C3C49040709BD7075386F3CACDEB6102328F7087F62E60D02" version="1"/>
+<package name="com.huawei.gameassistant" path="data/hw_init/product/app/HwGameAssistant" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="900001306"/>
+<package name="com.microsoft.translator" path="data/hw_init/product/app/Microsoft_Translator" ss="3A1E9E8DF96B0EB45FD0ACD0200B42E9E2D757C4B13968999CC7D541E80357E0" version="312"/>
+<package name="com.android.imedia.syncplay" path="data/hw_init/product/app/PartyMode" ss="EDC4E4A9F0CB5B490F9E7563A5C12F776C87435FF51E8A930FC6F2C08E4B196E" version="832"/>
+<package name="com.huawei.livewallpaper.honor" path="data/hw_init/product/app/Streamline" ss="D54A0841FC93A87E60677DC15F257D42FAB35BFFDD96C7B038BAD65A2C61F25B" version="1"/>
+<package name="com.huawei.imedia.sws" path="data/hw_init/product/app/SWSHeadphone" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="27"/>
+<package name="com.android.browser" path="data/hw_init/product/region_comm/china/app/Browser_uc" ss="F5EFBA49EE165C5E678E9BF3E4283CABDF3F5DC668A151719E111C4FB9603977" version="92000001"/>
+<package name="com.huawei.gamebox" path="data/hw_init/product/region_comm/china/app/GameBox" ss="EDC4E4A9F0CB5B490F9E7563A5C12F776C87435FF51E8A930FC6F2C08E4B196E" version="90001301"/>
+<package name="com.huawei.hiskytone" path="data/hw_init/product/region_comm/china/app/HiSkyTone" ss="EDC4E4A9F0CB5B490F9E7563A5C12F776C87435FF51E8A930FC6F2C08E4B196E" version="90001315"/>
+<package name="com.huawei.hwapplet" path="data/hw_init/product/region_comm/china/app/HwApplet" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="90100301"/>
+<package name="com.huawei.health" path="data/hw_init/product/region_comm/china/app/HwHealthPlatform" ss="EDC4E4A9F0CB5B490F9E7563A5C12F776C87435FF51E8A930FC6F2C08E4B196E" version="90004388"/>
+<package name="com.huawei.android.karaoke" path="data/hw_init/product/region_comm/china/app/HwKaraoke" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="90001325"/>
+<package name="com.huawei.hwpolicyservice" path="data/hw_init/product/region_comm/china/app/HwPolicyService" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="2"/>
+<package name="com.huawei.vdrive" path="data/hw_init/product/region_comm/china/app/HwVDrive" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="91000304"/>
+<package name="com.huawei.hbs.framework" path="data/hw_init/product/region_comm/china/app/HwWebRuntime" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="61"/>
+<package name="com.huawei.scenepack" path="data/hw_init/product/region_comm/china/app/ScenePack" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="90100301"/>
+<package name="com.huawei.hwasm" path="product/app/HwFidoAsm" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="90100300"/>
+<package name="com.huawei.fido.uafclient" path="product/app/HwFidoClient" ss="0C872997D85FCB7CBE94FFB700007C2A9179E699925FF74040D9F2C4B185CE64" version="80000301"/>
+<package name="com.huawei.intelliServer.intelliServer" path="product/app/intelliserver" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="1"/>
+<package name="com.android.frameworkres.overlay" path="product/overlay" ss="0C872997D85FCB7CBE94FFB700007C2A9179E699925FF74040D9F2C4B185CE64" version="1"/>
+<package name="com.android.systemui.overlay" path="product/overlay" ss="0C872997D85FCB7CBE94FFB700007C2A9179E699925FF74040D9F2C4B185CE64" version="1"/>
+<package name="com.huawei.regservice" path="product/region_comm/china/app/HwCmccDm" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="90001100"/>
+<package name="com.huawei.smartlocation" path="product/region_comm/china/app/HwSmartLocation" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="1"/>
+<package name="com.huawei.spaceservice" path="product/region_comm/china/app/HwSpaceService" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="90100002"/>
+<package name="cn.honor.qinxuan" path="product/region_comm/china/app/qinxuan" ss="64C691B117C5D7FD92242DC9F71786D4A439F787F8A5A38B9323CD6A378416AB" version="74"/>
+<package name="com.huawei.skytone" path="product/region_comm/china/app/SkyTone" ss="EDC4E4A9F0CB5B490F9E7563A5C12F776C87435FF51E8A930FC6F2C08E4B196E" version="90001315"/>
+</packages>

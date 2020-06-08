@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policy version="1.0">
+    <cmd id="4096" name="touch_move">
+        <action>
+            <duration_ms>80</duration_ms>
+            <big_cpu0_min_freq>1364000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <vip>40</vip>
+            <top-app>40</top-app>
+            <foreground>40</foreground>
+            <boost>40</boost>
+        </action>
+    </cmd>
+
+    <cmd id="4097" name="scroller_boost">
+        <action>
+            <duration_ms>1000</duration_ms>
+            <big_cpu0_min_freq>1364000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <ipa_power>4500</ipa_power>
+            <vip>20</vip>
+            <top-app>20</top-app>
+            <foreground>20</foreground>
+            <boost>20</boost>
+        </action>
+    </cmd>
+
+    <cmd id="4098" name="window_switch">
+        <action>
+            <duration_ms>400</duration_ms>
+            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
+            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
+            <big_cpu0_min_freq>2093000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <gpu_min_freq>550000000</gpu_min_freq>
+            <gpu_max_freq>767000000</gpu_max_freq>
+            <ddr_min_freq>1244000000</ddr_min_freq>
+            <ipa_power>4500</ipa_power>
+            <vip>30</vip>
+            <top-app>30</top-app>
+            <foreground>30</foreground>
+            <boost>30</boost>
+        </action>
+        <action>
+            <duration_ms>150</duration_ms>
+            <vip>40</vip>
+            <top-app>40</top-app>
+            <foreground>40</foreground>
+            <boost>40</boost>
+        </action>
+    </cmd>
+
+    <cmd id="4099" name="app_start">
+        <action>
+            <duration_ms>1500</duration_ms>
+            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
+            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
+            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <gpu_min_freq>550000000</gpu_min_freq>
+            <gpu_max_freq>767000000</gpu_max_freq>
+            <ddr_min_freq>1866000000</ddr_min_freq>
+            <ipa_power>4500</ipa_power>
+            <vip>40</vip>
+            <top-app>40</top-app>
+            <foreground>30</foreground>
+            <boost>40</boost>
+        </action>
+        <action>
+            <duration_ms>150</duration_ms>
+            <foreground>40</foreground>
+        </action>
+    </cmd>
+
+    <!--iaware enter game or full screen video play-->
+    <cmd id="4101" name="reset_boost_eas">
+        <action>
+            <duration_ms>0</duration_ms>
+            <boost>0</boost>
+        </action>
+    </cmd>
+
+    <cmd id="4102" name="screen_on">
+        <action>
+            <duration_ms>1000</duration_ms>
+            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
+            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
+            <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <gpu_min_freq>415000000</gpu_min_freq>
+            <gpu_max_freq>415000000</gpu_max_freq>
+            <vip>10</vip>
+            <top-app>10</top-app>
+            <foreground>10</foreground>
+            <boost>10</boost>
+        </action>
+    </cmd>
+
+    <cmd id="4103" name="finger_print">
+        <action>
+            <duration_ms>500</duration_ms>
+            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
+            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
+            <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <ddr_min_freq>1866000000</ddr_min_freq>
+            <vip>40</vip>
+            <top-app>40</top-app>
+            <foreground>40</foreground>
+            <boost>40</boost>
+        </action>
+    </cmd>
+
+    <cmd id="4104" name="status_bar">
+        <action>
+            <duration_ms>200</duration_ms>
+            <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <ipa_power>4500</ipa_power>
+            <vip>40</vip>
+            <top-app>40</top-app>
+            <foreground>40</foreground>
+            <boost>40</boost>
+        </action>
+    </cmd>
+
+    <cmd id="4105" name="rotation">
+        <action>
+            <duration_ms>1000</duration_ms>
+            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
+            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
+            <big_cpu0_min_freq>2093000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <gpu_min_freq>550000000</gpu_min_freq>
+            <gpu_max_freq>767000000</gpu_max_freq>
+            <ddr_min_freq>1244000000</ddr_min_freq>
+            <ipa_power>4500</ipa_power>
+            <vip>40</vip>
+            <top-app>40</top-app>
+            <foreground>40</foreground>
+            <boost>40</boost>
+        </action>
+    </cmd>
+
+    <cmd id="4106" name="lucky_money">
+        <action>
+            <duration_ms>500</duration_ms>
+            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
+            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
+            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <vip>40</vip>
+            <top-app>40</top-app>
+            <foreground>40</foreground>
+            <boost>40</boost>
+        </action>
+    </cmd>
+
+    <cmd id="4112" name="list_fling">
+        <action>
+            <duration_ms>5000</duration_ms>
+            <lit_cpu0_min_freq>1402000</lit_cpu0_min_freq>
+            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
+            <ipa_power>4500</ipa_power>
+            <vip>10</vip>
+            <top-app>10</top-app>
+            <foreground>10</foreground>
+            <boost>10</boost>
+        </action>
+    </cmd>
+
+    <!-- iaware screen on value -->
+    <cmd id="4113" name="iaware_eas_default">
+        <action>
+            <duration_ms>0</duration_ms>
+            <boost>0</boost>
+            <vip>0</vip>
+            <top-app>0</top-app>
+            <foreground>0</foreground>
+            <root>-10</root>
+            <system-background>-10</system-background>
+            <key-background>-10</key-background>
+            <background>-10</background>
+        </action>
+    </cmd>
+
+    <!-- iaware screen off value -->
+    <cmd id="4114" name="iaware_eas_screen_off">
+        <action>
+            <duration_ms>0</duration_ms>
+            <perf_limit>1</perf_limit>
+            <boost>-10</boost>
+            <vip>-10</vip>
+            <top-app>-10</top-app>
+            <foreground>-10</foreground>
+            <root>-10</root>
+            <system-background>-10</system-background>
+            <key-background>-10</key-background>
+            <background>-10</background>
+        </action>
+    </cmd>
+
+
+    <cmd id="4116" name="probe">
+        <action>
+            <duration_ms>100</duration_ms>
+            <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+        </action>
+    </cmd>
+
+    <cmd id="4118" name="specialscene">
+        <action>
+            <duration_ms>0</duration_ms>
+            <special_scene>1</special_scene>
+        </action>
+    </cmd>
+
+   <cmd id="4119" name="special_game_scene">
+        <action>
+            <duration_ms>0</duration_ms>
+            <special_scene>2</special_scene>
+        </action>
+    </cmd>
+
+    <cmd id="4228" name="gov_level_1">
+        <action>
+            <duration_ms>0</duration_ms>
+            <gov_big_cpu_load>120</gov_big_cpu_load>
+            <gov_big_cpu_delay_up>120</gov_big_cpu_delay_up>
+        </action>
+    </cmd>
+
+    <cmd id="4229" name="gov_level_2">
+        <action>
+            <duration_ms>0</duration_ms>
+            <gov_big_cpu_load>140</gov_big_cpu_load>
+            <gov_big_cpu_delay_up>150</gov_big_cpu_delay_up>
+        </action>
+    </cmd>
+
+    <cmd id="4231" name="gov_scene_level_1">
+        <action>
+            <duration_ms>0</duration_ms>
+            <gov_big_cpu_load>140</gov_big_cpu_load>
+        </action>
+    </cmd>
+
+    <cmd id="4232" name="gov_scene_level_2">
+        <action>
+            <duration_ms>0</duration_ms>
+            <gov_big_cpu_load>140</gov_big_cpu_load>
+            <gov_big_cpu_delay_up>150</gov_big_cpu_delay_up>
+        </action>
+    </cmd>
+    <cmd id="4233" name="gov_scene_level_3">
+        <action>
+            <duration_ms>0</duration_ms>
+            <gov_big_cpu_load>110</gov_big_cpu_load>
+            <gov_big_cpu_delay_up>110</gov_big_cpu_delay_up>
+        </action>
+    </cmd>
+    <cmd id="4353" name="enter_sched_level">
+        <action>
+            <duration_ms>0</duration_ms>
+            <boost>10</boost>
+            <vip>10</vip>
+            <top-app>10</top-app>
+            <foreground>10</foreground>
+            <root>0</root>
+            <system-background>0</system-background>
+            <key-background>0</key-background>
+            <background>0</background>
+        </action>
+    </cmd>
+
+    <cmd id="4358" name="search_contacts">
+        <action>
+            <duration_ms>100</duration_ms>
+            <top-app>40</top-app>
+        </action>
+    </cmd>
+    <!--from 4363 to 4389, for game eas level. cmd id begin-->
+    <cmd id="4363" name="eas_level_0">
+        <action>
+            <duration_ms>0</duration_ms>
+            <vip>0</vip>
+            <top-app>0</top-app>
+        </action>
+    </cmd>
+
+    <cmd id="4364" name="eas_level_1">
+        <action>
+            <duration_ms>0</duration_ms>
+            <vip>10</vip>
+            <top-app>20</top-app>
+        </action>
+    </cmd>
+
+    <cmd id="4365" name="eas_level_2">
+        <action>
+            <duration_ms>0</duration_ms>
+            <vip>20</vip>
+            <top-app>10</top-app>
+        </action>
+    </cmd>
+
+    <cmd id="4366" name="eas_level_3">
+        <action>
+            <duration_ms>0</duration_ms>
+            <vip>30</vip>
+            <top-app>20</top-app>
+        </action>
+    </cmd>
+
+    <cmd id="4367" name="eas_level_4">
+        <action>
+            <duration_ms>0</duration_ms>
+            <vip>40</vip>
+            <top-app>30</top-app>
+        </action>
+    </cmd>
+
+    <cmd id="4369" name="eas_level_5">
+        <action>
+            <duration_ms>0</duration_ms>
+            <vip>40</vip>
+            <top-app>0</top-app>
+        </action>
+    </cmd>
+
+    <cmd id="4370" name="eas_level_6">
+        <action>
+            <duration_ms>0</duration_ms>
+            <vip>10</vip>
+            <top-app>0</top-app>
+        </action>
+    </cmd>
+
+    <cmd id="4371" name="eas_level_7">
+        <action>
+            <duration_ms>0</duration_ms>
+            <vip>30</vip>
+            <top-app>30</top-app>
+        </action>
+    </cmd>
+
+    <cmd id="4372" name="eas_level_8">
+        <action>
+            <duration_ms>0</duration_ms>
+            <vip>30</vip>
+            <top-app>10</top-app>
+        </action>
+    </cmd>
+
+    <cmd id="4373" name="eas_level_9">
+        <action>
+            <duration_ms>0</duration_ms>
+            <vip>40</vip>
+            <top-app>10</top-app>
+        </action>
+    </cmd>
+
+    <cmd id="4374" name="eas_level_10">
+        <action>
+            <duration_ms>0</duration_ms>
+            <vip>20</vip>
+            <top-app>0</top-app>
+        </action>
+    </cmd>
+
+    <cmd id="4375" name="eas_level_11">
+        <action>
+            <duration_ms>0</duration_ms>
+            <vip>30</vip>
+            <top-app>0</top-app>
+        </action>
+    </cmd>
+
+    <cmd id="4376" name="eas_level_12">
+        <action>
+            <duration_ms>0</duration_ms>
+            <vip>10</vip>
+            <top-app>10</top-app>
+        </action>
+    </cmd>
+
+    <cmd id="4377" name="eas_level_13">
+        <action>
+            <duration_ms>0</duration_ms>
+            <vip>40</vip>
+            <top-app>40</top-app>
+        </action>
+    </cmd>
+
+    <cmd id="4378" name="eas_level_14">
+        <action>
+            <duration_ms>45000</duration_ms>
+            <vip>40</vip>
+            <top-app>30</top-app>
+        </action>
+    </cmd>
+    <cmd id="4379" name="eas_level_15">
+        <action>
+            <duration_ms>2000</duration_ms>
+            <vip>40</vip>
+            <top-app>30</top-app>
+        </action>
+    </cmd>
+
+    <!--from 4363 to 4389, for game eas level. cmd id end-->
+    <cmd id="4399" name="warm_start">
+        <action>
+            <duration_ms>400</duration_ms>
+            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
+            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
+            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
+            <gpu_min_freq>550000000</gpu_min_freq>
+            <gpu_max_freq>767000000</gpu_max_freq>
+            <ddr_min_freq>1866000000</ddr_min_freq>
+            <ipa_power>4500</ipa_power>
+            <vip>40</vip>
+            <top-app>40</top-app>
+            <foreground>30</foreground>
+            <boost>40</boost>
+        </action>
+        <action>
+            <duration_ms>150</duration_ms>
+            <vip>40</vip>
+            <top-app>40</top-app>
+            <foreground>40</foreground>
+            <boost>40</boost>
+        </action>
+    </cmd>
+    <cmd id="5376" name="set_default_level"> <!--group num must be (eas:8, hmp:1)-->
+        <action>
+            <duration_ms>0</duration_ms>
+            <boost>0</boost>
+            <vip>0</vip>
+            <top-app>0</top-app>
+            <foreground>0</foreground>
+            <root>0</root>
+            <system-background>0</system-background>
+            <key-background>0</key-background>
+            <background>0</background>
+        </action>
+    </cmd>
+
+    <cmd id="12288" name="sched_boost_freq">
+        <action>
+            <duration_ms>0</duration_ms>
+            <lit_cpu0_max_freq>1210000</lit_cpu0_max_freq>
+        </action>
+    </cmd>
+    <cmd id="12289" name="low_temp_tsh">
+        <action>
+            <duration_ms>0</duration_ms>
+            <big_cpu0_max_freq>1364000</big_cpu0_max_freq>
+            <lit_cpu0_max_freq>1402000</lit_cpu0_max_freq>
+            <gpu_max_freq>237143000</gpu_max_freq>
+        </action>
+    </cmd>
+
+    <!--from 12290 to 12349, for game frequencies level. cmd id begin-->
+    <cmd id="12290" name="bcpu_level_2">
+        <action>
+            <duration_ms>0</duration_ms>
+            <big_cpu0_min_freq>1863000</big_cpu0_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12291" name="bcpu_level_3">
+        <action>
+            <duration_ms>0</duration_ms>
+            <big_cpu0_min_freq>2093000</big_cpu0_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12292" name="bcpu_level_4">
+        <action>
+            <duration_ms>0</duration_ms>
+            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12293" name="lcpu_level_1">
+        <action>
+            <duration_ms>0</duration_ms>
+            <lit_cpu0_min_freq>1402000</lit_cpu0_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12294" name="lcpu_level_2">
+        <action>
+            <duration_ms>0</duration_ms>
+            <lit_cpu0_min_freq>1556000</lit_cpu0_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12295" name="lcpu_level_3">
+        <action>
+            <duration_ms>0</duration_ms>
+            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12296" name="lcpu_level_4">
+        <action>
+            <duration_ms>0</duration_ms>
+            <lit_cpu0_min_freq>1844000</lit_cpu0_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12297" name="ddr_level_1">
+        <action>
+            <duration_ms>0</duration_ms>
+            <ddr_min_freq>830000000</ddr_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12298" name="ddr_level_2">
+        <action>
+            <duration_ms>0</duration_ms>
+            <ddr_min_freq>1244000000</ddr_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12299" name="ddr_level_3">
+        <action>
+            <duration_ms>0</duration_ms>
+            <ddr_min_freq>1866000000</ddr_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12300" name="gpu_level_1">
+        <action>
+            <duration_ms>0</duration_ms>
+            <gpu_min_freq>332000000</gpu_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12301" name="gpu_level_2">
+        <action>
+            <duration_ms>0</duration_ms>
+            <gpu_min_freq>415000000</gpu_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12302" name="gpu_level_3">
+        <action>
+            <duration_ms>0</duration_ms>
+            <gpu_min_freq>550000000</gpu_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12303" name="boost_bcpu_level_1">
+        <action>
+            <duration_ms>5000</duration_ms>
+            <big_cpu0_min_freq>1652000</big_cpu0_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12310" name="bcpu_level_11">
+        <action>
+            <duration_ms>0</duration_ms>
+            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12311" name="bcpu_level_12">
+        <action>
+            <duration_ms>0</duration_ms>
+            <big_cpu0_max_freq>2093000</big_cpu0_max_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12320" name="lcpu_level_11">
+        <action>
+            <duration_ms>0</duration_ms>
+            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12321" name="lcpu_level_12">
+        <action>
+            <duration_ms>0</duration_ms>
+            <lit_cpu0_max_freq>1210000</lit_cpu0_max_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12330" name="gpu_level_11">
+        <action>
+            <duration_ms>0</duration_ms>
+            <gpu_min_freq>332000000</gpu_min_freq>
+            <gpu_max_freq>332000000</gpu_max_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12331" name="bcpu_level_1">
+        <action>
+            <duration_ms>0</duration_ms>
+            <big_cpu0_min_freq>1652000</big_cpu0_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12332" name="bcpu_level_5">
+        <action>
+            <duration_ms>0</duration_ms>
+            <big_cpu0_min_freq>1210000</big_cpu0_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12333" name="bcpu_level_6">
+        <action>
+            <duration_ms>0</duration_ms>
+            <big_cpu0_min_freq>1364000</big_cpu0_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12334" name="bcpu_level_7">
+        <action>
+            <duration_ms>0</duration_ms>
+            <big_cpu0_min_freq>1498000</big_cpu0_min_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12335" name="bcpu_level_13">
+        <action>
+            <duration_ms>0</duration_ms>
+            <big_cpu0_max_freq>1210000</big_cpu0_max_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12336" name="bcpu_level_14">
+        <action>
+            <duration_ms>0</duration_ms>
+            <big_cpu0_max_freq>1364000</big_cpu0_max_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12337" name="bcpu_level_15">
+        <action>
+            <duration_ms>0</duration_ms>
+            <big_cpu0_max_freq>1498000</big_cpu0_max_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12338" name="bcpu_level_16">
+        <action>
+            <duration_ms>0</duration_ms>
+            <big_cpu0_max_freq>1652000</big_cpu0_max_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12339" name="lcpu_level_13">
+        <action>
+            <duration_ms>0</duration_ms>
+            <lit_cpu0_max_freq>1402000</lit_cpu0_max_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12340" name="lcpu_level_14">
+        <action>
+            <duration_ms>0</duration_ms>
+            <lit_cpu0_max_freq>1556000</lit_cpu0_max_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12341" name="gpu_level_12">
+        <action>
+            <duration_ms>0</duration_ms>
+            <gpu_max_freq>150909000</gpu_max_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12342" name="gpu_level_13">
+        <action>
+            <duration_ms>0</duration_ms>
+            <gpu_max_freq>237143000</gpu_max_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12343" name="gpu_level_14">
+        <action>
+            <duration_ms>0</duration_ms>
+            <gpu_max_freq>332000000</gpu_max_freq>
+        </action>
+    </cmd>
+
+    <cmd id="12344" name="gpu_level_15">
+        <action>
+            <duration_ms>0</duration_ms>
+            <gpu_max_freq>415000000</gpu_max_freq>
+        </action>
+    </cmd>
+    <cmd id="12345" name="bcpu_level_17">
+        <action>
+            <duration_ms>45000</duration_ms>
+            <big_cpu0_min_freq>1690000</big_cpu0_min_freq>
+        </action>
+    </cmd>
+    <cmd id="12346" name="gpu_level_16">
+        <action>
+            <duration_ms>45000</duration_ms>
+            <gpu_min_freq>332000000</gpu_min_freq>
+        </action>
+    </cmd>
+    <cmd id="12347" name="bcpu_level_18">
+        <action>
+            <duration_ms>2000</duration_ms>
+            <big_cpu0_min_freq>1690000</big_cpu0_min_freq>
+        </action>
+    </cmd>
+    <cmd id="12348" name="gpu_level_17">
+        <action>
+            <duration_ms>2000</duration_ms>
+            <gpu_min_freq>332000000</gpu_min_freq>
+        </action>
+    </cmd>
+    <!--from 12290 to 12349, for game frequencies level. cmd id end-->
+    <!--from 13050 to 13059, for game launch boost. cmd id begin-->
+    <cmd id="13050" name="game_start_05">
+        <action>
+            <duration_ms>5000</duration_ms>
+            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
+            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
+            <ddr_min_freq>1866000000</ddr_min_freq>
+            <vip>40</vip>
+            <top-app>40</top-app>
+            <foreground>40</foreground>
+            <boost>40</boost>
+        </action>
+    </cmd>
+    <cmd id="13051" name="game_start_10">
+        <action>
+            <duration_ms>10000</duration_ms>
+            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
+            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
+            <ddr_min_freq>1866000000</ddr_min_freq>
+            <vip>40</vip>
+            <top-app>40</top-app>
+            <foreground>40</foreground>
+            <boost>40</boost>
+        </action>
+    </cmd>
+    <cmd id="13052" name="game_start_20">
+        <action>
+            <duration_ms>20000</duration_ms>
+            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
+            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
+            <ddr_min_freq>1866000000</ddr_min_freq>
+            <vip>40</vip>
+            <top-app>40</top-app>
+            <foreground>40</foreground>
+            <boost>40</boost>
+        </action>
+    </cmd>
+    <cmd id="13053" name="game_start_30">
+        <action>
+            <duration_ms>30000</duration_ms>
+            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
+            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
+            <ddr_min_freq>1866000000</ddr_min_freq>
+            <vip>40</vip>
+            <top-app>40</top-app>
+            <foreground>40</foreground>
+            <boost>40</boost>
+        </action>
+    </cmd>
+    <!--from 13050 to 13059, for game launch boost. cmd id end-->
+        <cmd id="12351" name="scanner_ui_freq_opt">
+        <action>
+            <duration_ms>0</duration_ms>
+            <perf_limit>1</perf_limit>
+            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
+            <vip>0</vip>
+            <top-app>0</top-app>
+            <foreground>0</foreground>
+            <boost>0</boost>
+        </action>
+    </cmd>
+    <cmd id="12354" name="gov_scene_level_4">
+        <action>
+            <duration_ms>0</duration_ms>
+            <perf_limit>1</perf_limit>
+            <gov_lit_cpu_delay_up>90</gov_lit_cpu_delay_up>
+            <gov_lit_cpu_load>90</gov_lit_cpu_load>
+            <gov_lit_cpu_delay_down>90</gov_lit_cpu_delay_down>
+            <gov_big_cpu_delay_up>90</gov_big_cpu_delay_up>
+            <gov_big_cpu_load>90</gov_big_cpu_load>
+            <gov_big_cpu_delay_down>90</gov_big_cpu_delay_down>
+        </action>
+    </cmd>
+    <!--0x4f00~0x4fff, for notification event-->
+
+</policy>
