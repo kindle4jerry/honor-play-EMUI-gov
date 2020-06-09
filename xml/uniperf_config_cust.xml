@@ -450,15 +450,15 @@
     <cmd id="12288" name="sched_boost_freq">
         <action>
             <duration_ms>0</duration_ms>
-            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
+            <lit_cpu0_max_freq>1210000</lit_cpu0_max_freq>
         </action>
     </cmd>
     <cmd id="12289" name="low_temp_tsh">
         <action>
             <duration_ms>0</duration_ms>
-            <big_cpu0_max_freq>1863000</big_cpu0_max_freq>
-            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
-            <gpu_max_freq>415000000</gpu_max_freq>
+            <big_cpu0_max_freq>1364000</big_cpu0_max_freq>
+            <lit_cpu0_max_freq>1402000</lit_cpu0_max_freq>
+            <gpu_max_freq>237143000</gpu_max_freq>
         </action>
     </cmd>
 
