@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EyeProtectionConfig>
     <EyeProtectionBrightnessPoints>
-        <Point>0,6</Point>
-	<Point>20,34</Point>
-	<Point>50,53</Point>
-	<Point>100,58</Point>
-	<Point>200,63</Point>
-	<Point>400,73</Point>
-	<Point>1000,107</Point>
-	<Point>2000,165</Point>
-	<Point>3000,199</Point>
-	<Point>5000,233</Point>
-	<Point>10000,255</Point>
-	<Point>40000,255</Point>
+        <Point>0,5</Point>
+        <Point>25,40</Point>
+        <Point>100,77</Point>
+        <Point>300,94</Point>
+        <Point>500,106</Point>
+        <Point>1000,133</Point>
+        <Point>2000,188</Point>
+        <Point>3000,230</Point>
+        <Point>4000,255</Point>
+        <Point>40000,255</Point>
     </EyeProtectionBrightnessPoints>
     <BlueLightFilterReal>7</BlueLightFilterReal>
     <ColorTemperatureSunny>60</ColorTemperatureSunny>
     <ColorTemperatureCloudy>40</ColorTemperatureCloudy>
     <ColorTemperatureInDoor>20</ColorTemperatureInDoor>
     <ColorTemperatureNight>0</ColorTemperatureNight>
-    <LessWarm>30</LessWarm>
-    <MoreWarm>30</MoreWarm>
+    <LessWarm>6</LessWarm>
+    <MoreWarm>26</MoreWarm>
     <LuxLevel>
         <Value>0.0</Value>
         <Value>100.0</Value>

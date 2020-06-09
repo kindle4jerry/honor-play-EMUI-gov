@@ -1,4 +1,7 @@
+/data/hw_init/product/app/Fantasy011603/Fantasy011603.apk
 /product/app/HwFidoAsm/HwFidoAsm.apk
 /product/app/HwFidoClient/HwFidoClient.apk
+/product/app/HwSmartShot/HwSmartShot.apk,priv
+/product/app/ProjectMenuAct/ProjectMenuAct.apk,priv
 /data/hw_init/product/app/SWSHeadphone/SWSHeadphone.apk
 /product/app/intelliserver/intelliserver.apk

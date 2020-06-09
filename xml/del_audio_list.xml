@@ -4,13 +4,13 @@
          <ringtones>Suite</ringtones>
          <ringtones>Polonaise</ringtones>
          <ringtones>Menuet</ringtones>
-         <ringtones>Impromptu</ringtones>
-         <ringtones>Flipped</ringtones>
-         <ringtones>Day_lily</ringtones>
-         <ringtones>Harp</ringtones>
-         <ringtones>Dream_It_Possible</ringtones>
+         <ringtones>Impromptu</ringtones>		 
+         <ringtones>Harp</ringtones>		 
+         <ringtones>Dream_It_Possible</ringtones>		 
          <ringtones>Bounce</ringtones>
-
+         <ringtones>Flow</ringtones>
+         <ringtones>Day_lily</ringtones>
+         <ringtones>Digital_Ringtone</ringtones>
          <notifications>PingPong</notifications>
          <notifications>Peking_Opera_Drum</notifications>
          <notifications>Leaf</notifications>
@@ -19,13 +19,14 @@
          <notifications>Fountain</notifications>
          <notifications>Echo</notifications>
          <notifications>Cave</notifications>
-
+         <notifications>Doorbell</notifications>
+         <notifications>Cuckoo</notifications>
          <animationsounds>bootSound</animationsounds>
 
          <alarms>Meet</alarms>
          <alarms>Hawaii</alarms>
          <alarms>Sakura_Drop</alarms>
-         <alarms>Blue_Harbor</alarms>
+
 
 
 

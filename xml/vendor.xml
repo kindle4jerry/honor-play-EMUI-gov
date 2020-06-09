@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+	<carrier_config mcc="460" mnc="00">
+		<!--RCS ENABLE-->
+		<string name="huawei_rcs_switcher">1</string>
+		<!--CMCC yingyonghao-->
+		<string name="is_support_native_rcsapp">true</string>
+	</carrier_config>
+	<!--CN_CMCC_46002-->
+	<carrier_config mcc="460" mnc="02">
+		<!--RCS ENABLE-->
+		<string name="huawei_rcs_switcher">1</string>
+		<!--CMCC yingyonghao-->
+		<string name="is_support_native_rcsapp">true</string>
+	</carrier_config>
+	<!--CN_CMCC_46007-->
+	<carrier_config mcc="460" mnc="07">
+		<!--RCS ENABLE-->
+		<string name="huawei_rcs_switcher">1</string>
+		<!--CMCC yingyonghao-->
+		<string name="is_support_native_rcsapp">true</string>
+	</carrier_config>
+	<!--CN_CMCC_46007-->
+	<carrier_config mcc="460" mnc="08">
+		<!--RCS ENABLE-->
+		<string name="huawei_rcs_switcher">1</string>
+		<!--CMCC yingyonghao-->
+		<string name="is_support_native_rcsapp">true</string>
+	</carrier_config>
+</carrier_config_list>

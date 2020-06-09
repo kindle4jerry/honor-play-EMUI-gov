@@ -412,4 +412,5 @@
     <popular_game pkg_name="com.tencent.mtt" />
     <popular_game pkg_name="com.tencent.mm" />
     <popular_game pkg_name="com.tencent.mobileqq" />
+    <popular_game pkg_name="com.lab501.batterylife" />
 </popular_app_config>

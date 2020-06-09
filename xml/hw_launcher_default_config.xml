@@ -18,7 +18,6 @@
 -->
 
 <launcher_config>
-    <!--Product configuration , others inherit platform -->
     <bool name="config_orientation_enabled">true</bool>
     <item name="config_desktopCellsOptionItems">4x6,5x5,5x6</item>
     <integer name="config_cellsDrawerLayoutIndex">0</integer>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <policy version="1.0">
+
     <cmd id="4096" name="touch_move">
         <action>
             <duration_ms>80</duration_ms>
@@ -52,22 +53,20 @@
 
     <cmd id="4099" name="app_start">
         <action>
-            <duration_ms>1500</duration_ms>
-            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
-            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
-            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
-            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
-            <gpu_min_freq>550000000</gpu_min_freq>
-            <gpu_max_freq>767000000</gpu_max_freq>
-            <ddr_min_freq>1866000000</ddr_min_freq>
-            <ipa_power>4500</ipa_power>
+            <duration_ms>7000</duration_ms>
+            <lit_cpu0_min_freq>509000</lit_cpu0_min_freq>
+            <big_cpu0_min_freq>1364000</big_cpu0_min_freq>
             <vip>40</vip>
             <top-app>40</top-app>
             <foreground>30</foreground>
             <boost>40</boost>
         </action>
         <action>
-            <duration_ms>150</duration_ms>
+            <duration_ms>1500</duration_ms>
+            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
+            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
+            <gpu_min_freq>550000000</gpu_min_freq>
+            <ddr_min_freq>1866000000</ddr_min_freq>
             <foreground>40</foreground>
         </action>
     </cmd>
@@ -200,7 +199,6 @@
         </action>
     </cmd>
 
-
     <cmd id="4116" name="probe">
         <action>
             <duration_ms>100</duration_ms>
@@ -216,48 +214,74 @@
         </action>
     </cmd>
 
-   <cmd id="4119" name="special_game_scene">
+    <cmd id="4119" name="special_game_scene">
         <action>
             <duration_ms>0</duration_ms>
             <special_scene>2</special_scene>
         </action>
     </cmd>
 
+    <cmd id="4225" name="default_mode">
+        <action>
+            <duration_ms>0</duration_ms>
+            <priority>10</priority>
+            <go_hispeed_load_b>90</go_hispeed_load_b>
+            <hispeed_freq_b>1364000</hispeed_freq_b>
+            <target_load_freq_b>80:1364000:75:1498000:85:1652000:95</target_load_freq_b>
+            <above_hispeed_delay_b>39000 1498000:79000 1652000:19000</above_hispeed_delay_b>
+        </action>
+    </cmd>
+
     <cmd id="4228" name="gov_level_1">
         <action>
             <duration_ms>0</duration_ms>
-            <gov_big_cpu_load>120</gov_big_cpu_load>
-            <gov_big_cpu_delay_up>120</gov_big_cpu_delay_up>
+            <priority>60</priority>
+            <go_hispeed_load_b>75</go_hispeed_load_b>
+            <hispeed_freq_b>1364000</hispeed_freq_b>
+            <target_load_freq_b>70 1364000:75 1498000:80 1652000:85</target_load_freq_b>
+            <above_hispeed_delay_b>39000 1364000:19000</above_hispeed_delay_b>
         </action>
     </cmd>
 
     <cmd id="4229" name="gov_level_2">
         <action>
             <duration_ms>0</duration_ms>
-            <gov_big_cpu_load>140</gov_big_cpu_load>
-            <gov_big_cpu_delay_up>150</gov_big_cpu_delay_up>
+            <priority>60</priority>
+            <go_hispeed_load_b>60</go_hispeed_load_b>
+            <hispeed_freq_b>1652000</hispeed_freq_b>
+            <target_load_freq_b>60 1498000:65 1652000:75 2093000:90</target_load_freq_b>
+            <above_hispeed_delay_b>19000</above_hispeed_delay_b>
         </action>
     </cmd>
 
     <cmd id="4231" name="gov_scene_level_1">
         <action>
             <duration_ms>0</duration_ms>
-            <gov_big_cpu_load>140</gov_big_cpu_load>
+            <priority>80</priority>
+            <go_hispeed_load_b>60</go_hispeed_load_b>
+            <hispeed_freq_b>1652000</hispeed_freq_b>
+            <target_load_freq_b>60 1498000:65 1652000:75 2093000:90</target_load_freq_b>
         </action>
     </cmd>
 
     <cmd id="4232" name="gov_scene_level_2">
         <action>
             <duration_ms>0</duration_ms>
-            <gov_big_cpu_load>140</gov_big_cpu_load>
-            <gov_big_cpu_delay_up>150</gov_big_cpu_delay_up>
+            <priority>80</priority>
+            <go_hispeed_load_b>60</go_hispeed_load_b>
+            <hispeed_freq_b>1652000</hispeed_freq_b>
+            <target_load_freq_b>60 1498000:65 1652000:75 2093000:90</target_load_freq_b>
+            <above_hispeed_delay_b>19000</above_hispeed_delay_b>
         </action>
     </cmd>
     <cmd id="4233" name="gov_scene_level_3">
         <action>
             <duration_ms>0</duration_ms>
-            <gov_big_cpu_load>110</gov_big_cpu_load>
-            <gov_big_cpu_delay_up>110</gov_big_cpu_delay_up>
+            <priority>80</priority>
+            <go_hispeed_load_b>75</go_hispeed_load_b>
+            <hispeed_freq_b>1364000</hispeed_freq_b>
+            <target_load_freq_b>70 1364000:75 1498000:80 1652000:90</target_load_freq_b>
+            <above_hispeed_delay_b>39000 1652000:19000</above_hispeed_delay_b>
         </action>
     </cmd>
     <cmd id="4353" name="enter_sched_level">
@@ -392,32 +416,14 @@
             <top-app>40</top-app>
         </action>
     </cmd>
-
-    <cmd id="4378" name="eas_level_14">
-        <action>
-            <duration_ms>45000</duration_ms>
-            <vip>40</vip>
-            <top-app>30</top-app>
-        </action>
-    </cmd>
-    <cmd id="4379" name="eas_level_15">
-        <action>
-            <duration_ms>2000</duration_ms>
-            <vip>40</vip>
-            <top-app>30</top-app>
-        </action>
-    </cmd>
-
     <!--from 4363 to 4389, for game eas level. cmd id end-->
+
     <cmd id="4399" name="warm_start">
         <action>
             <duration_ms>400</duration_ms>
             <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
-            <lit_cpu0_max_freq>1690000</lit_cpu0_max_freq>
             <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
-            <big_cpu0_max_freq>2362000</big_cpu0_max_freq>
             <gpu_min_freq>550000000</gpu_min_freq>
-            <gpu_max_freq>767000000</gpu_max_freq>
             <ddr_min_freq>1866000000</ddr_min_freq>
             <ipa_power>4500</ipa_power>
             <vip>40</vip>
@@ -427,13 +433,11 @@
         </action>
         <action>
             <duration_ms>150</duration_ms>
-            <vip>40</vip>
-            <top-app>40</top-app>
             <foreground>40</foreground>
-            <boost>40</boost>
         </action>
     </cmd>
-    <cmd id="5376" name="set_default_level"> <!--group num must be (eas:8, hmp:1)-->
+    <!--group num must be (eas:8, hmp:1)-->
+    <cmd id="5376" name="set_default_level">
         <action>
             <duration_ms>0</duration_ms>
             <boost>0</boost>
@@ -461,7 +465,6 @@
             <gpu_max_freq>237143000</gpu_max_freq>
         </action>
     </cmd>
-
     <!--from 12290 to 12349, for game frequencies level. cmd id begin-->
     <cmd id="12290" name="bcpu_level_2">
         <action>
@@ -694,82 +697,8 @@
             <gpu_max_freq>415000000</gpu_max_freq>
         </action>
     </cmd>
-    <cmd id="12345" name="bcpu_level_17">
-        <action>
-            <duration_ms>45000</duration_ms>
-            <big_cpu0_min_freq>1690000</big_cpu0_min_freq>
-        </action>
-    </cmd>
-    <cmd id="12346" name="gpu_level_16">
-        <action>
-            <duration_ms>45000</duration_ms>
-            <gpu_min_freq>332000000</gpu_min_freq>
-        </action>
-    </cmd>
-    <cmd id="12347" name="bcpu_level_18">
-        <action>
-            <duration_ms>2000</duration_ms>
-            <big_cpu0_min_freq>1690000</big_cpu0_min_freq>
-        </action>
-    </cmd>
-    <cmd id="12348" name="gpu_level_17">
-        <action>
-            <duration_ms>2000</duration_ms>
-            <gpu_min_freq>332000000</gpu_min_freq>
-        </action>
-    </cmd>
     <!--from 12290 to 12349, for game frequencies level. cmd id end-->
-    <!--from 13050 to 13059, for game launch boost. cmd id begin-->
-    <cmd id="13050" name="game_start_05">
-        <action>
-            <duration_ms>5000</duration_ms>
-            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
-            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
-            <ddr_min_freq>1866000000</ddr_min_freq>
-            <vip>40</vip>
-            <top-app>40</top-app>
-            <foreground>40</foreground>
-            <boost>40</boost>
-        </action>
-    </cmd>
-    <cmd id="13051" name="game_start_10">
-        <action>
-            <duration_ms>10000</duration_ms>
-            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
-            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
-            <ddr_min_freq>1866000000</ddr_min_freq>
-            <vip>40</vip>
-            <top-app>40</top-app>
-            <foreground>40</foreground>
-            <boost>40</boost>
-        </action>
-    </cmd>
-    <cmd id="13052" name="game_start_20">
-        <action>
-            <duration_ms>20000</duration_ms>
-            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
-            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
-            <ddr_min_freq>1866000000</ddr_min_freq>
-            <vip>40</vip>
-            <top-app>40</top-app>
-            <foreground>40</foreground>
-            <boost>40</boost>
-        </action>
-    </cmd>
-    <cmd id="13053" name="game_start_30">
-        <action>
-            <duration_ms>30000</duration_ms>
-            <lit_cpu0_min_freq>1690000</lit_cpu0_min_freq>
-            <big_cpu0_min_freq>2362000</big_cpu0_min_freq>
-            <ddr_min_freq>1866000000</ddr_min_freq>
-            <vip>40</vip>
-            <top-app>40</top-app>
-            <foreground>40</foreground>
-            <boost>40</boost>
-        </action>
-    </cmd>
-    <!--from 13050 to 13059, for game launch boost. cmd id end-->
-        <cmd id="12351" name="scanner_ui_freq_opt">
+    <cmd id="12351" name="scanner_ui_freq_opt">
         <action>
             <duration_ms>0</duration_ms>
             <perf_limit>1</perf_limit>

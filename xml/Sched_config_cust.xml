@@ -5,7 +5,7 @@
     <enable>1</enable>
     <SOC>970</SOC>
 
-    <game_list size='5'>  <!-- 所有白名单的包名-surface名对应表  surfaceflinger 游戏SDK  hwsched 都需要读取该白名单 !-->
+    <game_list size='6'>  <!-- 所有白名单的包名-surface名对应表  surfaceflinger 游戏SDK  hwsched 都需要读取该白名单 !-->
         <game id="0">
             <package_name>default</package_name>
             <surface_name>default</surface_name>
@@ -46,6 +46,14 @@
             <fps_list>20 25 30 35 40 45 50 55 60</fps_list>
             <sched_tunable_profile> 2 </sched_tunable_profile>
         </game>
+        <game id="5">
+            <package_name>com.tencent.tmgp.pubgmhd</package_name>
+            <surface_name>com.tencent.tmgp.pubgmhd/com.epicgames.ue4.GameActivity#0</surface_name>
+            <FPS_detect_profile>0</FPS_detect_profile>
+            <temp_control_profile>0</temp_control_profile>
+            <fps_list>20 25 30 40 60</fps_list>
+            <sched_tunable_profile> 3 </sched_tunable_profile>
+        </game>
    </game_list>
 
     <sched_tunables>
@@ -68,7 +76,7 @@
             <para name="E_IDX_OVERLOAD_UPPER_THRES"> 85 </para>
             <para name="E_IDX_BOOST_THREAD_START"> 1 </para>
         </default_sched_tunable>
-        <specific_sched_tunable_list size = "3"><!--//增量参数-->
+        <specific_sched_tunable_list size = "4"><!--//增量参数-->
             <sched_tunable id="0" para_size="0"><!--//非白名单游戏增量参数-->
             </sched_tunable>
             <sched_tunable id="1" para_size="1">
@@ -77,6 +85,11 @@
             <sched_tunable id="2" para_size="3">
                 <para name="E_IDX_FPS_MIN_LOSS"> 5 </para>
                 <para name="E_IDX_FPS_MAX_LOSS"> 20 </para>
+                <para name="E_IDX_MARGIN_MAX"> 14000 </para>
+            </sched_tunable>
+            <sched_tunable id="3" para_size="3">
+                <para name="E_IDX_FPS_MIN_LOSS"> 15 </para>
+                <para name="E_IDX_FPS_MAX_LOSS"> 35 </para>
                 <para name="E_IDX_MARGIN_MAX"> 14000 </para>
             </sched_tunable>
         </specific_sched_tunable_list>

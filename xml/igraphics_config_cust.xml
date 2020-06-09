@@ -70,14 +70,6 @@
             cMBFlag="true"
         />
         <igfx
-            name="com.mobile.legends:UnityKillsMe"
-            type="cpu_bound"
-            tDBF="60"
-            bTC="3"
-            mBF="0"
-            cMBFlag="true"
-        />
-       <igfx
             name="com.tencent.ig"
             type="cpu_bound"
             pSF="10"
@@ -94,6 +86,14 @@
             bTC="3"
             eHO="true"
             ifSSK="true"
+            mBF="0"
+            cMBFlag="true"
+        />
+        <igfx
+            name="com.mobile.legends:UnityKillsMe"
+            type="cpu_bound"
+            tDBF="60"
+            bTC="3"
             mBF="0"
             cMBFlag="true"
         />
