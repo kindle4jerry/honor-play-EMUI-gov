@@ -42,7 +42,7 @@
                     <cpu>509000</cpu>
                     <cpu_a15>682000</cpu_a15>
                     <gpu>103750000</gpu>
-                    <ucurrent>0</ucurrent>
+                    <ucurrent>1500</ucurrent>
                 </action>
             </item>
             <item>
@@ -52,7 +52,7 @@
                     <cpu>509000</cpu>
                     <cpu_a15>682000</cpu_a15>
                     <gpu>103750000</gpu>
-                    <ucurrent>0</ucurrent>
+                    <ucurrent>1200</ucurrent>
                 </action>
             </item>
             <item>
@@ -62,8 +62,8 @@
                     <cpu>509000</cpu>
                     <cpu_a15>682000</cpu_a15>
                     <gpu>103750000</gpu>
-                    <uvoltage>0</uvoltage>
-                    <ucurrent>0</ucurrent>
+                    <uvoltage>9</uvoltage>
+                    <ucurrent>470</ucurrent>
                 </action>
             </item>
         </sensor_temp>
